@@ -1,19 +1,20 @@
 var friends = [
     {
-        "name": "Joshua",
-        "photo": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg",
-        "scores": [
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
+        "name": "Brad",
+        "image": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg",
+        "values": [
+            10,
             2,
-            5,
             4,
-            1 
+            7,
+            8,
+            3,
+            7,
+            9,
+            4,
+            6
         ]
     }
-
 ];
+
+module.exports = friends;

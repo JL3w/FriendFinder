@@ -4,26 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>"Friend" Finder</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="col-12">
-        <div class="row">
-            <div class="jumbotron">
-                <h1 class="display-4">"Friend" Finder</h1>
-                <p class="lead">Using Multilinear Subspace Learning we distill exactly who a person is and instantaneously find their perfect match 
-                    with a simple fifth order elastic tensor field matrix.</p>
-                <hr class="my-4">
-                <p>Complete the basic survey and quickly converge with your local optimum hottie.  </p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Take the Survey</a>
+    <div class="container">
+        <div class="row p-4" >
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="display-4">"Friend" Finder</h1>
+                    <p class="lead">Using Multilinear Subspace Learning we distill exactly who a person is and instantaneously find their perfect match 
+                     with a simple fifth order elastic tensor field matrix.</p>
+                    <hr class="my-4">
+                    <p>Complete the basic survey and quickly converge with your local optimum hottie.  </p>
+                    <a class="btn btn-primary btn-lg" href="/survey" role="button">Find Your Match</a>
+                </div>
+                <hr>
+                <a href="/api/friends">Friends!</a>
             </div>
+            
         </div>
     </div>
-    <div>
-        <a href="/api/friends">Friends!</a>
-    </div>
+    
+        
+   
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

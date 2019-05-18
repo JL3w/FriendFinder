@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>"Friend" Finder</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <h1 class="text-primary"> Survey Says</h1>
+        <hr>
+        <form>
+        <h2> Your Details</h2>
+        <br>
+        <h4> Enter your full name</h4>
+        <input type="text" id="name" class="form-control" required>
+        <br>
+        <h4> Please enter a public url to a photo of yourself</h4>
+        <input type="text" id="imgurl" class="form-control" required>
+        <br>
+        <hr>
+        <h2 class="text-primary">Multilinear Subspace Learning Form</h2>
+        <br>
+        <h4>Please answer to the best of your ability by choosing how much you agree with the statement on a scale of 1-10</h4>
+        <br>
+        <h4 class="text-info"">You find pleasure in the simpliest of things.</h4>
+        <select class="chosen-select" id="1">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">What is right and wrong is easily distinguishable.</h4>
+        <select class="chosen-select" id="2">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">People have inherent value.</h4>
+        <select class="chosen-select" id="3">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">Animals have inherent value.</h4>
+        <select class="chosen-select" id="4">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">People are the resultant of their brains, meat-machine automotons lacking free will.</h4>
+        <select class="chosen-select" id="5">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">You prefer shrimp burgers over sushi.</h4>
+        <select class="chosen-select" id="6">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">90's era X-Men are the greatest Marvel creation.</h4>
+        <select class="chosen-select" id="7">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">You have no control over your nature nor your nuture, the two things that make you who you are.</h4>
+        <select class="chosen-select" id="8">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">True understanding is always accompanied with unconditional empathy.</h4>
+        <select class="chosen-select" id="9">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h4 class="text-info">You are an ENFP.</h4>
+        <select class="chosen-select" id="10">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+        </form>
+        <hr>
+        <a href="/api/friends">Friends!</a>
+    </div>
+
+    <div id="result" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">X</button>
+                    <h2 class="modal-title"><strong>Your Local Optimum Hottie!</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="mate-name"></h2>
+                    <img id="mate-image" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            var ans = {
+                name: $("#name").val(),
+                image: $("#imgurl").val(),
+                values: [
+                    $("#1").val(),
+                    $("#2").val(),  
+                    $("#3").val(),
+                    $("#4").val(),
+                    $("#5").val(),
+                    $("#6").val(),
+                    $("#7").val(),
+                    $("#8").val(),
+                    $("#9").val(),
+                    $("#10").val()
+                ]
+            };
+            $.post("/api/friends", ans, function (data) {
+                $("#mate-name").text(data.name);
+                $("#mate-image").attr("src", data.image);
+                $("#result").modal("toggle");
+        });
+    });
+    </script>
+</body>
+</html>
